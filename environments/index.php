@@ -35,6 +35,7 @@ return [
             'backend/runtime',
             'backend/web/assets',
             'console/runtime',
+            'api/runtime',
             'frontend/runtime',
             'frontend/web/assets',
         ],
@@ -46,6 +47,7 @@ return [
             'backend/config/main-local.php',
             'common/config/codeception-local.php',
             'frontend/config/main-local.php',
+            'api/config/main-local.php',
         ],
     ],
     'Production' => [
@@ -54,6 +56,7 @@ return [
             'backend/runtime',
             'backend/web/assets',
             'console/runtime',
+            'api/runtime',
             'frontend/runtime',
             'frontend/web/assets',
         ],
@@ -63,6 +66,7 @@ return [
         'setCookieValidationKey' => [
             'backend/config/main-local.php',
             'frontend/config/main-local.php',
+            'api/config/main-local.php',
         ],
     ],
 ];
